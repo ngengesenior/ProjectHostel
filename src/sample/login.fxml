@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.171"
+            fx:controller="sample.LoginController">
+    <children>
+        <Label layoutX="674.0" layoutY="78.0" text="Welcome Back">
+            <font>
+                <Font size="26.0"/>
+            </font>
+        </Label>
+        <Label layoutX="700.0" layoutY="145.0" text="LOGIN " textAlignment="CENTER">
+            <font>
+                <Font size="23.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="name" layoutX="748.0" layoutY="231.0" prefHeight="38.0" prefWidth="467.0">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </TextField>
+        <Label layoutX="664.0" layoutY="236.0" text="Name">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </Label>
+        <PasswordField fx:id="password" layoutX="748.0" layoutY="304.0" prefHeight="38.0" prefWidth="467.0"/>
+        <Label layoutX="634.0" layoutY="307.0" text="Password">
+            <font>
+                <Font size="17.0"/>
+            </font>
+        </Label>
+        <Button fx:id="login" layoutX="779.0" layoutY="422.0" mnemonicParsing="false" onAction="#login"
+                prefHeight="38.0" prefWidth="397.0" text="Login">
+            <font>
+                <Font size="19.0"/>
+            </font>
+        </Button>
+        <AnchorPane layoutX="-16.0" layoutY="-5.0" prefHeight="814.0" prefWidth="345.0"
+                    style="-fx-background-color: #5150aa;">
+            <children>
+                <Label layoutX="73.0" layoutY="58.0" text="ROOMS ALLOCATION" textFill="WHITE">
+                    <font>
+                        <Font size="19.0"/>
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

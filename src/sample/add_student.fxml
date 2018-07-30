@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.171">
+    <children>
+        <AnchorPane layoutX="-7.0" layoutY="-14.0" prefHeight="800.0" prefWidth="1929.0">
+            <children>
+                <TextField layoutX="59.0" layoutY="84.0" prefHeight="40.0" prefWidth="354.0"
+                           promptText="Student Names"/>
+                <TextField layoutX="59.0" layoutY="168.0" prefHeight="40.0" prefWidth="354.0"
+                           promptText="Student Number"/>
+                <TextField layoutX="59.0" layoutY="265.0" prefHeight="40.0" prefWidth="354.0"
+                           promptText="Phone Number"/>
+                <TextField layoutX="59.0" layoutY="414.0" prefHeight="40.0" prefWidth="354.0" promptText="Department"/>
+                <DatePicker layoutX="58.0" layoutY="341.0" prefHeight="40.0" prefWidth="354.0"
+                            promptText="Date of Birth"/>
+                <TextField layoutX="545.0" layoutY="84.0" prefHeight="40.0" prefWidth="354.0"
+                           promptText="Guardian/Parent Names"/>
+                <TextField layoutX="545.0" layoutY="168.0" prefHeight="40.0" prefWidth="354.0"
+                           promptText="Guardian/Parent Phone"/>
+                <TextField layoutX="545.0" layoutY="256.0" prefHeight="40.0" prefWidth="354.0"
+                           promptText="Guardian/Parent Residence"/>
+                <ComboBox layoutX="545.0" layoutY="335.0" prefHeight="40.0" prefWidth="354.0"
+                          promptText="Select Hostel"/>
+                <TextField layoutX="633.0" layoutY="394.0" prefHeight="40.0" prefWidth="178.0"
+                           promptText="Room Number"/>
+                <Button layoutX="418.0" layoutY="526.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="483.0"
+                        text="Save"/>
+                <AnchorPane layoutX="1102.0" layoutY="59.0" prefHeight="754.0" prefWidth="308.0"
+                            style="-fx-background-color: #323a4d;"/>
+            </children>
+            <padding>
+                <Insets left="30.0" right="30.0" top="30.0"/>
+            </padding>
+        </AnchorPane>
+        <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="49.0" prefWidth="1410.0"
+                    style="-fx-background-color: #5150aa;"/>
+    </children>
+</AnchorPane>
